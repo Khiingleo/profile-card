@@ -6,6 +6,10 @@
     --var-cyan: hsl(178, 100%, 50%);
 }
 
+html {
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--var-main-darkest);
     font-family: 'Outfit', sans-serif;
@@ -24,9 +28,10 @@ body {
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
 }
 .profile-card img {
-    width: 100px;
-    border-radius: 50%;
-    outline: 2px solid var(--var-lightest);
+    width: 129px;
+    border-radius: 15px;
+    /* display: block; */
+    /* outline: 2px solid var(--var-lightest); */
     margin-bottom: 1rem;
 }
 .profile-card h1 {
