@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Profile card</title>
+</head>
+<body>
+    <!-- Card details -->
+    <div class="profile-card">
+        <img src="profile-pic.jpg" alt="Profile Picture" data-testid="profilePicture">
+        <h1 data-testid="fullName">Shalom Ogoziem</h1>
+        <p data-testid="jobTitle">Software Engineer | data analyst</p>
+        <p data-testid="shortBio">"Passionate about programming and interested in learning new things."</p>
+        <p data-testid="currentLocation"><strong>Location:</strong> Lagos, Nigeria</p>
+        <p data-testid="emailAddress"><strong>Email:</strong> shalomzymike@gmail.com</p>
+        <p data-testid="socialLinks">
+            <a href="https://www.linkedin.com/in/shalom-ogoziem-487985270?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a> 
+            | 
+            <a href="https://github.com/Khiingleo/" target="_blank">GitHub</a>
+        </p>
+        <p class="utc-time" data-testid="currentTimeUTC">UTC Time: <span id="time">Loading...</span></p>
+    </div>
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

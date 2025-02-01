@@ -1,0 +1,55 @@
+:root {
+    --var-main-darkest: hsl(217, 54%, 11%);
+    --var-card-dark: hsl(216, 50%, 16%);
+    --var-lightest: white;
+    --var-soft-blue: hsl(215, 51%, 70%);
+    --var-cyan: hsl(178, 100%, 50%);
+}
+
+body {
+    background-color: var(--var-main-darkest);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.profile-card {
+    background-color: var(--var-card-dark);
+    border-radius: 15px;
+    padding: 2rem;
+    text-align: center;
+    width: 350px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.profile-card img {
+    width: 100px;
+    border-radius: 50%;
+    outline: 2px solid var(--var-lightest);
+    margin-bottom: 1rem;
+}
+.profile-card h1 {
+    color: var(--var-lightest);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.profile-card p {
+    color: var(--var-soft-blue);
+    font-size: 1em;
+    margin-bottom: 1rem;
+}
+.profile-card a {
+    color: var(--var-cyan);
+    text-decoration: none;
+    font-weight: 600;
+}
+.profile-card a:hover {
+    text-decoration: underline;
+}
+.utc-time {
+    color: var(--var-lightest);
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 1rem;
+}
